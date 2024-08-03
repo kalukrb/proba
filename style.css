@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    background-color: slategrey;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    color: white;
+    font-family: bahnschrift;
+}
+h2{
+    color: white;
+    font-family: bahnschrift;
+}
+h3{
+    color: white;
+    font-family: bahnschrift;
+}
+p{
+    font-family: bahnschrift;
+}
+#pesak{
+    color: white;
+}
+#a1{
+    color:white;
+}
+#a2{
+    color:white;
+}
+#a3{
+    color:white;
+}
+#a4{
+    color:white;
+}
+#naruci{
+    color:white;
+    text-decoration: none;
+}
+a{
+    font-family: bahnschrift;
+}
+.odd{
+    background-color: lightblue;
+    color: white;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: white;
+   text-decoration: none;
+   padding: 8px 15px;
+   display: inline-block;
+}
+.pagination a.active{
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(175, 175, 175);
+}
+.navbar li{
+    display: inline-block;
+}
